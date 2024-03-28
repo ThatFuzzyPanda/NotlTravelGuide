@@ -4,7 +4,8 @@ import NavBar from "../components/navbar";
 const page = () => {
   return (
     <>
-      <h1>Here is the trail page!</h1>
+      <NavBar />
+      <h1>Here is the airbnb page!</h1>
     </>
   );
 };

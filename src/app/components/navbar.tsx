@@ -49,9 +49,6 @@ const NavBar = () => {
                     <li>
                       <Link href="/forkids">for Kids</Link>
                     </li>
-                    <li>
-                      <Link href="/hiddengems">Hidden Gems</Link>
-                    </li>
                   </ul>
                 </details>
               </li>
@@ -60,13 +57,13 @@ const NavBar = () => {
                   <summary>Where to eat</summary>
                   <ul className="p-2">
                     <li>
-                      <Link href="/user">Fine Dining</Link>
+                      <Link href="/finedining">Fine Dining</Link>
                     </li>
                     <li>
-                      <Link href="/user">Takeout</Link>
+                      <Link href="/takeout">Takeout</Link>
                     </li>
                     <li>
-                      <Link href="/user">Sit-Down</Link>
+                      <Link href="/sitdown">Sit-Down</Link>
                     </li>
                   </ul>
                 </details>
@@ -76,16 +73,13 @@ const NavBar = () => {
                   <summary>Where to Stay</summary>
                   <ul className="p-2">
                     <li>
-                      <a>Hotels</a>
+                      <Link href="/hotels">Hotels</Link>
                     </li>
                     <li>
-                      <Link href="/user">AirBnbs</Link>
+                      <Link href="/airbnbs">AirBnbs</Link>
                     </li>
                   </ul>
                 </details>
-              </li>
-              <li>
-                <a>About?</a>
               </li>
             </ul>
           </div>
@@ -117,9 +111,6 @@ const NavBar = () => {
                   <li>
                     <Link href="/forkids">for Kids</Link>
                   </li>
-                  <li>
-                    <Link href="/hiddengems">Hidden Gems</Link>
-                  </li>
                 </ul>
               </details>
             </li>
@@ -128,13 +119,13 @@ const NavBar = () => {
                 <summary>Where to eat</summary>
                 <ul className="p-2">
                   <li>
-                    <Link href="/user">Fine Dining</Link>
+                    <Link href="/finedining">Fine Dining</Link>
                   </li>
                   <li>
-                    <Link href="/user">Takeout</Link>
+                    <Link href="/takeout">Takeout</Link>
                   </li>
                   <li>
-                    <Link href="/user">Sit-Down</Link>
+                    <Link href="/sitdown">Sit-Down</Link>
                   </li>
                 </ul>
               </details>
@@ -144,16 +135,13 @@ const NavBar = () => {
                 <summary>Where to Stay</summary>
                 <ul className="p-2">
                   <li>
-                    <a>Hotels</a>
+                    <Link href="/hotels">Hotels</Link>
                   </li>
                   <li>
-                    <Link href="/user">AirBnbs</Link>
+                    <Link href="/airbnbs">AirBnbs</Link>
                   </li>
                 </ul>
               </details>
-            </li>
-            <li>
-              <a>About?</a>
             </li>
           </ul>
         </div>
